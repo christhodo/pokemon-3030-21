@@ -16,7 +16,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pokemon-angular/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@pokemon-angular/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@pokemon-angular/core-data": ["libs/core-data/src/index.ts"],
+      "@pokemon-angular/core-state": ["libs/core-state/src/index.ts"],
+      "@pokemon-angular/material": ["libs/material/src/index.ts"],
+      "@pokemon-angular/ui-login": ["libs/ui-login/src/index.ts"],
+      "@pokemon-angular/environment": ["libs/environment/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
